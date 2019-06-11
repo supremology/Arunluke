@@ -9,9 +9,6 @@
 #define PLATFORM_TYPES_H_
 
 #define CPU_TYPE_64                                      /* CPU TYPE*/
-#define CPU_TYPE_32
-#define CPU_TYPE_16
-#define CPU_TYPE_8
 #define MSB_FIRST  1                                    /* BIT ORDERING ((Register)*/
 #define LSB_FIRST  1
 #define HIGH_BYTE_FIRST 0                               /* Byte Ordering (Memory) */
