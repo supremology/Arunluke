@@ -17,7 +17,6 @@
 /* GLOBAL DATA TYPES (ECU DEPEND)  */
 
 
-
 typedef uint8 PduIdType ;                            /* ID OF PDU  */
 
 typedef uint8 PduLengthType;                         /* LENGTH INFO OF PDU    */
@@ -66,7 +65,7 @@ TpDataStateType ;
 
 typedef struct                                       /* Store the information about TP buffer handling. */
 {
-	TpDataStateType  TpDataState ;
+	 enum TpDataStateType  TpDataState ;
 	PduLengthType TxTpDataCnt;
 }
 RetryInfoType;
